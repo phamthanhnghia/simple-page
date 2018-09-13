@@ -8,13 +8,128 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Tặng em</title>
+    <title>EM ƠI, NGHE ANH NÓI GÌ KHÔNG ?</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 <body>
-      <div id="time">
-          <div id="day"></div>
-          <div id="hours"></div>
+      <div class="button-content">
+        <center><h3>Gần 1 năm rồi đó, ahihi!</h3></center>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Day love
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <div id="time">
+                            <div id="day"></div>
+                            <div id="hours"></div>
+                        </div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- end Modal -->
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#why">
+                Why I love you ?
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="why" tabindex="-1" role="dialog" aria-labelledby="whyLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="whyLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <h6>
+                            I love you with know how, why ,or even from where...
+                            Anh yêu em mà không biết tại sao, bằng cách nào và thậm chí từ đâu.
+                        </h6>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- end Modal -->
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#when">
+                When I love you ?
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="when" tabindex="-1" role="dialog" aria-labelledby="whenLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="whenLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <h6>
+                            Anh là nắng nhưng lại gặp em khi trời mưa.
+                        </h6>
+                        <h6>
+                            Em là cô bé nhỏ được anh ôm vào lòng.
+                        </h6>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- end Modal -->
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#talk">
+                ĐIỀU ANH MUỐN NÓI !
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="talk" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="talkLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <h6>
+                            Cục Cưng ơi ! Đừng hết yêu anh nhé !
+                        </h6>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- end Modal -->
       </div>
 </body>
 <!-- Optional JavaScript -->
@@ -23,6 +138,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
      <script>
+        
          $(function(){
              setInterval(function () {
                 check();
