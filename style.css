@@ -32,4 +32,7 @@ h6{
     line-height: 120px;
     color: #ff6d6d;
 }
+button.btn.btn-primary {
+    margin-bottom: 10px;
+}
 
